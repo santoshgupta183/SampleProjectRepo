@@ -5,15 +5,17 @@ public class User {
     private String fName;
     private String lName;
     private int age;
+    private String address;
 
     public User() {
     }
 
-    public User(String id, String fName, String lName, int age) {
+    public User(String id, String fName, String lName, int age, String address) {
         this.id = id;
         this.fName = fName;
         this.lName = lName;
         this.age = age;
+        this.address = address;
     }
 
     public String getId() {
@@ -46,5 +48,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
