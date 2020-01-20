@@ -6,6 +6,9 @@ public class User {
     private String lName;
     private int age;
 
+    public User() {
+    }
+
     public User(String id, String fName, String lName, int age) {
         this.id = id;
         this.fName = fName;
